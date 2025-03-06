@@ -1,0 +1,2 @@
+Am luat fiecare operatie in parte, am creat cate o functie care sa o rezolve, dupa care, cand am intalnit o operatie de tipul SHOW sau SHOW_CURRENT am afisat pe loc, operatiile de tip UPDATE au fost introduse intr-o coada, cand am intalnit operatia EXECUTE am extras o operatie din coada si am executat-o, iar pentru operatiile de tip UNDO/REDO am creat 2 stive in care am introdus si extras pointerii ceruti.
+In final, am eliberat intreaga memorie folosita, distrugand banda, coada si stivele create.
